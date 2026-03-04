@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 // Target date for the countdown — change this to your special date
 <<<<<<< HEAD
-const TARGET_DATE = new Date("2026-02-08T00:00:00");
+const TARGET_DATE = new Date("2026-03-08T00:00:00");
 =======
-const TARGET_DATE = new Date("2025-02-14T00:00:00");
+const TARGET_DATE = new Date("2026-03-08T00:00:00");
 >>>>>>> e5af5ca066a7bfdf0d803ab70f621cc8ae09a0d6
 
 const CountdownPage = () => {
