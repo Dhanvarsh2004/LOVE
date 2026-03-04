@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 // Target date for the countdown — change this to your special date
 
-const TARGET_DATE = new Date("2026-03-08T00:00:00");
+const TARGET_DATE = new Date("2026-02-08T00:00:00");
 const CountdownPage = () => {
   const navigate = useNavigate();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
