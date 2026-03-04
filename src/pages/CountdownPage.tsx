@@ -84,15 +84,7 @@ const CountdownPage = () => {
       </div>
 
 =======
-      <motion.button
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        onClick={() => navigate("/celebration")}
-        className="mt-12 rounded-full bg-primary px-8 py-3 font-display text-lg text-primary-foreground shadow-lg transition-transform hover:scale-105"
-      >
-        Skip to Celebration →
-      </motion.button>
+      
     </div>
   );
 };

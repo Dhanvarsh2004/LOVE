@@ -6,11 +6,7 @@ const chapters = [
   { id: 1, title: "Our first step", emoji: "🌹", description: "Where it all began" },
   { id: 2, title: "Two Years of Us", emoji: "✈️", description: "Journeys we shared" },
   { id: 3, title: "Third Chapter", emoji: "☕", description: "The quiet magic" },
-  { id: 4, title: "Eyes of Beauty", emoji: "💍", description: "Soulful radiant beauty" },
-  { id: 1, title: "Our First Meeting", emoji: "🌹", description: "Where it all began" },
-  { id: 2, title: "Adventures Together", emoji: "✈️", description: "Journeys we shared" },
-  { id: 3, title: "Little Moments", emoji: "☕", description: "The quiet magic" },
-  { id: 4, title: "Forever & Always", emoji: "💍", description: "Our future story" },];
+  { id: 4, title: "Eyes of Beauty", emoji: "💍", description: "Soulful radiant beauty" },];
 
 const GalleryPage = () => {
   const navigate = useNavigate();
