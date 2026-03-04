@@ -3,12 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 // Target date for the countdown — change this to your special date
-<<<<<<< HEAD
-const TARGET_DATE = new Date("2026-03-08T00:00:00");
-=======
-const TARGET_DATE = new Date("2026-03-08T00:00:00");
->>>>>>> e5af5ca066a7bfdf0d803ab70f621cc8ae09a0d6
 
+const TARGET_DATE = new Date("2026-03-08T00:00:00");
 const CountdownPage = () => {
   const navigate = useNavigate();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -87,7 +83,6 @@ const CountdownPage = () => {
         ))}
       </div>
 
-<<<<<<< HEAD
 =======
       <motion.button
         initial={{ opacity: 0 }}
@@ -98,7 +93,6 @@ const CountdownPage = () => {
       >
         Skip to Celebration →
       </motion.button>
->>>>>>> e5af5ca066a7bfdf0d803ab70f621cc8ae09a0d6
     </div>
   );
 };

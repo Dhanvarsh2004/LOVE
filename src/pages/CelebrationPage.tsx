@@ -25,12 +25,7 @@ const CelebrationPage = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="mb-4 font-display text-5xl font-bold text-primary-foreground md:text-7xl drop-shadow-lg"
         >
-<<<<<<< HEAD
-          Happy Anniversary, my love ❤️
-
-=======
           Happy Valentine's Day
->>>>>>> e5af5ca066a7bfdf0d803ab70f621cc8ae09a0d6
         </motion.h1>
 
         <motion.p
@@ -39,12 +34,10 @@ const CelebrationPage = () => {
           transition={{ delay: 0.8, duration: 0.8 }}
           className="mb-4 max-w-md font-body text-lg text-romantic-blush md:text-xl"
         >
-<<<<<<< HEAD
+
           With you, even the simplest moments feel magical
 Thank you for filling my life with love, laughter, and warmth. ✨
-=======
           You make every moment magical ✨
->>>>>>> e5af5ca066a7bfdf0d803ab70f621cc8ae09a0d6
         </motion.p>
 
         <motion.div

@@ -2,18 +2,15 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const chapters = [
-<<<<<<< HEAD
+
   { id: 1, title: "Our first step", emoji: "🌹", description: "Where it all began" },
   { id: 2, title: "Two Years of Us", emoji: "✈️", description: "Journeys we shared" },
   { id: 3, title: "Third Chapter", emoji: "☕", description: "The quiet magic" },
   { id: 4, title: "Eyes of Beauty", emoji: "💍", description: "Soulful radiant beauty" },
-=======
   { id: 1, title: "Our First Meeting", emoji: "🌹", description: "Where it all began" },
   { id: 2, title: "Adventures Together", emoji: "✈️", description: "Journeys we shared" },
   { id: 3, title: "Little Moments", emoji: "☕", description: "The quiet magic" },
-  { id: 4, title: "Forever & Always", emoji: "💍", description: "Our future story" },
->>>>>>> e5af5ca066a7bfdf0d803ab70f621cc8ae09a0d6
-];
+  { id: 4, title: "Forever & Always", emoji: "💍", description: "Our future story" },];
 
 const GalleryPage = () => {
   const navigate = useNavigate();
